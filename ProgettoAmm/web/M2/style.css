@@ -1,0 +1,65 @@
+
+
+body {
+    background-color: powderblue;
+    font: 17px/25px "Open Sans", Verdana, sans-serif; 
+}
+    #HeaderDes h1{
+    font: "open sans" 35px/50px "open sans", Verdana, sans-serif;
+    color:  darkslategray;
+    }
+    #HeaderDes h2{
+        font: "open sans" 35px/50px "open sans", Verdana, sans-serif;
+        color: darkslategray;
+    }
+    #HeaderDes h3{
+        font: "open sans" 35px/50px "open sans", Verdana, sans-serif;
+        color: darkslategray;
+    }
+    
+    a {
+    text-decoration: underline;
+    color: #9e1616;
+}
+    a:visited {
+    text-decoration: underline;
+    color: green;
+    }
+    
+    #Input div{
+         width: 500px;
+    margin: 50px auto;
+    background: #222;
+    padding: 25px;
+    overflow: hidden;
+    
+    
+   
+ 
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    
+    
+    }
+    
+    #login h1 {
+        font: "open sans" 35px/50px "open sans", Verdana, sans-serif;
+        color: darkslategray;
+    }
+    
+    #windowLogin{
+        text-align: center;
+        margin-left:25%;
+        margin-right: 25%;
+        
+            
+    }
+    
+    #NavBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    
