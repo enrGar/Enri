@@ -11,69 +11,33 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Enrico Garau">
         <meta name="keyboards" content="Social Network Oedi Serd amici conoscere">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
         
-        <link rel="stylesheet" type="text/css" href="style.css" 
-        media="screen">
-         <nav>
-            <ul>
-                <li><a href='bacheca.html'>bacheca</a></li>
-                <li><a href='profilo.html'>profilo</a></li>
-                <li><a href='descrizione.html'>descrizione</a></li> 
-            </ul>
-         </nav>
-     <style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-
-li a:hover {
-    background-color: #111;
-}
-</style>
     </head>
     <body>
-        <div id="windowLogin">
-        <h1 id="login">Effettua il login</h1>
+        <h1>Nerdbook</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href='bacheca.html'>Bacheca</a></li>
+                <li><a href='profilo.html'>Profilo</a></li>
+                <li><a href='descrizione.html'>Descrizione</a></li> 
+            </ul>
+         </nav>
+        <br>
         
-    <form action="demo.asp" method="get">
-        <div id="Input">
-        <label for="Username">Username</label>
-        <input type="text" name="Username"
-            id="Username" value="" />
-        <br/>
-        <label for="password">Password</label>
-        <input type="password" name="password” "
-        id="pswd" value="" />
-        </div>
-    </form>
-        </div>
+        <form class="form" action="demo.asp" method="get">
+            
+            <h2>Effettua il login</h2>
         
+            Username:<br>
+            <input type ="text" name="Username"><br>
+        
+            Password:<br>
+            <input type="password" name="password"><br>
+        
+        </form>  
         
     </body>
 </html>
+

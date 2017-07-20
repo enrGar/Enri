@@ -1,65 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3-lug-2017, 23.24.08
+    Author     : Enrico
+*/
+
+/*stile h1, ovvero logo nerdbook*/
+h1 {
+    color: lightskyblue;
+    font-family: Helvetica;
+} 
+/*stile dei body nel progetto*/
+body{
+    background-color: #333;
+    color: lightskyblue;
+    font-family: Helvetica;
+}
+
+/*elementi navbar*/
+.linav {
+    text-decoration: none;
+    display: inline;
+}
+
+/*link*/
+li a:link {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+/*link visitato*/
+li a:visited{
+    color: aquamarine;
+}
 
 
-body {
-    background-color: powderblue;
-    font: 17px/25px "Open Sans", Verdana, sans-serif; 
+/*link selezionato*/
+li a:active{
+    color: yellow
 }
-    #HeaderDes h1{
-    font: "open sans" 35px/50px "open sans", Verdana, sans-serif;
-    color:  darkslategray;
-    }
-    #HeaderDes h2{
-        font: "open sans" 35px/50px "open sans", Verdana, sans-serif;
-        color: darkslategray;
-    }
-    #HeaderDes h3{
-        font: "open sans" 35px/50px "open sans", Verdana, sans-serif;
-        color: darkslategray;
-    }
-    
-    a {
-    text-decoration: underline;
-    color: #9e1616;
+/*Colore del link quando il cursore del mouse passa sopra*/
+li a:hover{
+    background-color: #333;
+    padding: 1%;
+    margin: 0%;
+    width: 100%;
+    color: aqua;
 }
-    a:visited {
-    text-decoration: underline;
-    color: green;
-    }
-    
-    #Input div{
-         width: 500px;
-    margin: 50px auto;
-    background: #222;
-    padding: 25px;
+/*stile form*/
+.form {
+    width: 50%;
+    background: darkslategray;
+    padding: 20px;
     overflow: hidden;
-    
-    
-   
- 
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
+    border: thin solid black;
     
+    input[type=text]:focus {
+    border: 3px solid #333;
+    position: relative;
+    left: 100px;
+}
+}
+/*stile della barra di navigazione*/
+.navbar {
+    background-color: darkslategray;
+    margin: 0%;
+    overflow: hidden;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: thin solid black;
+}
+/*stile link navbar*/
+.navbar li{
+    display: inline;
+}
+/*definizione stile sidebar*/
+.sidebar {
+    position: fixed;
+    text-align: left;
+    border: thin solid black;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background-color: darkslategray;
+   }
+/*stile dei form*/
+.post {
+   position: relative;
+   text-align: center;
+   background-color: dimgrey;
+   border: thin solid black;
+   overflow: auto;
+   margin-left: 121px;
+   margin-right: 20%;
+   -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   border-radius: 20px;
+}
+/*gestione foto profilo*/
+.propic{
+   -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   border-radius: 20px;
+   border: thin solid black;
+}
+/*gestione elementi sidebar*/
+.liside {
+   text-decoration: none;
+   display: list-item;
+   margin: 0;
+   padding: 0;
+   list-style: none;
     
-    }
-    
-    #login h1 {
-        font: "open sans" 35px/50px "open sans", Verdana, sans-serif;
-        color: darkslategray;
-    }
-    
-    #windowLogin{
-        text-align: center;
-        margin-left:25%;
-        margin-right: 25%;
-        
-            
-    }
-    
-    #NavBar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    }
+}
+/*gestione immagine nei post*/
+.imgpost{
+   -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   border-radius: 20px;
+   border: thin solid black;
+} 
+/*gestione posizione nome del contatto nei post*/
+.h2nome {
+   text-align: left;
+}
+/*posizione didascalia post*/
+.h3didascalia {
+   text-align: left;
+   overflow: auto;
+}
 
-    
+/*stile link nel post*/
+.linkpost {
+   color: lightskyblue;
+}
+
+/*Layout*/
+
+
